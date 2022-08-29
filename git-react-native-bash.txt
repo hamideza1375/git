@@ -1,0 +1,33 @@
+git
+
+brew install git
+
+sh -s /bin/zsh
+
+git init
+git config --global user.name "fullname"
+git config --global user.email "email"
+git status
+git add .
+git commit
+git commit -m "comment"
+git branch main
+git checkout main
+Git merge main
+
+
+vscode
+Shell command = code .
+
+
+react-native-ios
+npx react-native run-ios --simulator="iPhone 11"
+xcodde --select install
+
+
+react-native-android
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
