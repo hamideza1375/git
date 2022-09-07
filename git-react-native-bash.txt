@@ -6,13 +6,7 @@ git checkout main
 
 git checkout -- .
 
-git restore --staged
-
 git log
-
-git reset id
-
-git reset --hard 900d1c5970a0d080dc6dc3b14f5b507f0b896720
 
 ssh-add
 
