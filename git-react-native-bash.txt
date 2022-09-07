@@ -4,6 +4,8 @@ git remote
 
 git checkout main
 
+git checkout -- .
+
 ssh-add
 
 git remote -v
