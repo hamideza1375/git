@@ -1,3 +1,10 @@
+git log
+git reset --hard 'id'
+git branch 'new-branch'
+git checkout 'new-branch'
+git marge 'new-branch'
+git checkout .
+
 git remote
 
 git checkout main
