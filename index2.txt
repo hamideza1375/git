@@ -1,0 +1,82 @@
+git log
+git reset --hard 'id'
+git branch 'new-branch'
+git checkout 'new-branch'
+git merge 'new-branch'
+git checkout .
+
+git remote
+
+git checkout main
+
+ssh-add
+
+git remote -v
+
+git remote set-url origin https://github.com/hamideza1375/git.git
+
+git branch -M main
+
+git push -u origin main
+
+
+//!
+برای ساخت برنچ جدید اول باید توی برنچ مستر کامیت کنی وبعد بنویسی
+git branch newBranch
+و برای ورود به برنچ تازه ساخته شده باید بنویسی
+git checkout newBranch
+و تغییراتی رو که تو این برنچ جدید ایجاد میکنی باید کامیت کنی و بعد چکوت کنی به برنچ مستر 
+و اگه یادت رفت کامیت کنی و همینجوری چکوت کردی تو برنچ مستر میتونی دوباره برگردی و کامیت کنی
+برای اینکه تغییراتی که تو برنچ جدید ایجاد کردی رو به برنچ مستر انتقال بدی باید تو برنچ مستر بنویسی
+git merge newBranch
+اگه تو برنچ جدید تایپ کنی
+git branch -M master
+میری تو برنچ مستر و تغییرات برنچ جدید هم انتقال داده میشه به مستر
+//!
+
+
+//!
+برای مشاهده ی کامیت های قبل باید تایپ کنی
+git log
+و برای برگردوندن به کامیت های قبل باید ایدی کامیت مورد نظر رو در دستور زیر وارد کنی
+git reset --hard 'id'
+بعد از ریست کردن به کامیت قبلی لاگ های کامیت قبلی حذف میشن و باید قبل از ریست کردن لاگ هارو جایی بنویسی
+//!
+
+
+
+
+
+git
+
+brew install git
+
+sh -s /bin/zsh
+
+git init
+git config --global user.name "fullname"
+git config --global user.email "email"
+git status
+git add .
+git commit
+git commit -m "comment"
+git branch main
+git checkout main
+Git merge main
+
+
+vscode
+Shell command = code .
+
+
+react-native-ios
+npx react-native run-ios --simulator="iPhone 11"
+xcodde --select install
+
+
+react-native-android
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
