@@ -3,7 +3,7 @@ git reset --hard 'id'
 git branch 'new-branch'
 git checkout 'new-branch'
 git merge 'new-branch'
-git checkout .
+git checkout -- .
 
 git remote
 
@@ -20,6 +20,7 @@ git branch -M main
 git push -u origin main
 
 
+git reset --hard HEAD === git checkout -f
 //!
 برای ساخت برنچ جدید اول باید توی برنچ مستر کامیت کنی وبعد بنویسی
 git branch newBranch
@@ -43,7 +44,13 @@ git reset --hard 'id'
 بعد از ریست کردن به کامیت قبلی لاگ های کامیت قبلی حذف میشن و باید قبل از ریست کردن لاگ هارو جایی بنویسی
 //!
 
-
+//!
+اگه فایل یا فایل هایی رو حذف کردی یا توش تغییری ایجاد کردی میتونی با دستور زیر برگردونی
+git checkout "filename.js"
+دستور بالا یک فایل رو برمیگردونه و دستور زیر تمام فایل هارو به حالت قبل برمیگردونه 
+ فقط باید فایل ها به اخرین موقعی که ادد کرده بودیشون برمیگردن f 
+git checkout .
+//!
 
 
 
