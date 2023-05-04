@@ -19,6 +19,9 @@ git branch -M main
 
 git push -u origin main
 
+git push -f origin master // وقتی پروژه ی جدیدی رو تو مخزن های قبلی میخوای پوش کنی و اجازه نمیده از این دستور استفاده کن
+
+-f === --force
 
 git reset --hard HEAD === git checkout -f
 //!
