@@ -20,6 +20,7 @@ git branch -M main
 git push -u origin main
 
 git push -f origin master // وقتی پروژه ی جدیدی رو تو مخزن های قبلی میخوای پوش کنی و اجازه نمیده از این دستور استفاده کن
+اگه تو خطا گفته بود git pull رو قبل از پوش امتحان کن انجام بده
 
 -f === --force
 
